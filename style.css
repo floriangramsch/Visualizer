@@ -1,0 +1,58 @@
+/* Überarbeitete Farben für den Button */
+
+/* Hintergrundfarbe für alle Elemente */
+* {
+    background-color: #F8EDD1; /* Cremefarben */
+}
+
+/* Container-Stil */
+#container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+/* Input-Stil */
+#input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+/* Element-Stil */
+#element {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #FFB6B9; /* Hellrosa Hintergrundfarbe */
+    color: #5c3d2e; /* Dunkelbrauner Text */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Schatten-Effekt */
+}
+
+/* Stil für die Eingabe */
+#eingabe {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+/* Stil für den Button */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #91A8D0; /* Hellblau für den Button */
+    color: #fff;
+    transition: background-color 0.3s ease; /* Animation für Hover-Effekt */
+}
+
+/* Hover-Effekt für den Button */
+button:hover {
+    background-color: #779ECB; /* Dunkleres Blau beim Hovern */
+}
